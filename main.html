@@ -1,43 +1,89 @@
-!DOCTYPE html>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Optional CSS for styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h1, h2 {
+      color: #444;
+    }
+    ul {
+      list-style-type: circle;
+      margin-left: 20px;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
-	    
-    <h1>My Playlist</h1>
 
-    <h2>Now Playing...</h2>
+<header>
+  <!-- Insert your image -->
+  <img src="https://e0.pxfuel.com/wallpapers/869/860/desktop-wallpaper-cute-baby-cute-baby-cute-baby-pic-cute-baby.jpg" alt="Your Name">
+  <!-- Display your name -->
+  <h1>tanu</h1>
+  <!-- LinkedIn profile -->
+  <a href="https://www.linkedin.com/in/tanu-chouksey-a61777265/" target="_blank">LinkedIn Profile</a>
+</header>
 
-    <div class="player_one">
-        <video controls>
-            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <h2>MP3 songs</h2>
-
-    <div class="player_two">
-        <audio controls>
-            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
-            Your browser does not support the audio tag.
-        </audio>
-    </div>
-
+<main>
+  <!-- Skills section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Here are some of the skills I have:</p>
     <ul>
-        <li><a href="https://www.example.com/song1" target="_blank">Song 1</a></li>
-        <li><a href="https://www.example.com/song2" target="_blank">Song 2</a></li>
-        <li><a href="https://www.example.com/song3" target="_blank">Song 3</a></li>
-        <li><a href="https://www.example.com/song4" target="_blank">Song 4</a></li>
-        <li><a href="https://www.example.com/song5" target="_blank">Song 5</a></li>
+      <li>Programming in JavaScript, Python, and Java</li>
+      <li>Web Development (HTML, CSS, React)</li>
+      <li>Data Analysis and Visualization</li>
+      <li>Database Management</li>
     </ul>
-    <script type="text/javascript" src="./script.js">
-</script>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Some of the projects I have worked on:</p>
+    <ul>
+      <li><strong>Portfolio Website:</strong> A personal website to showcase my skills and projects.</li>
+      <li><strong>Weather App:</strong> A React-based application that displays weather forecasts using an API.</li>
+      <li><strong>Blog Platform:</strong> A full-stack application for writing and sharing articles.</li>
+    </ul>
+  </section>
+</main>
 
 </body>
-
 </html>
